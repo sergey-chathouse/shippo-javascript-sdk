@@ -1,13 +1,13 @@
 {
-  "name": "shippo",
-  "version": "2.15.0",
-  "author": "Shippo",
+  "name": "@ChathouseAI/shippo-javascript-sdk",
+  "version": "2.15.1",
+  "author": "ChathouseAI",
   "license": "MIT",
   "main": "./index.js",
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/goshippo/shippo-javascript-sdk.git"
+    "url": "https://github.com/ChathouseAI/shippo-javascript-sdk.git"
   },
   "scripts": {
     "lint": "eslint --max-warnings=0 src",
@@ -31,7 +31,8 @@
     "typescript": "^5.4.5",
     "zod": "^3.23.4"
   },
-  "dependencies": {
-    
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
